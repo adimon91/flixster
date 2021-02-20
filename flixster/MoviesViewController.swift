@@ -70,8 +70,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.posterView.af.setImage(withURL: posterUrl!)
         
         return cell
-        
-        print("more features")
     }
     
     
